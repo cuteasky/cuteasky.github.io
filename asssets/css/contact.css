@@ -1,0 +1,20 @@
+#contact {
+  padding-top: 3.4rem;
+  padding-bottom: 7rem;
+  background: url("../img/bg-4.jpg");
+  background-size: cover;
+}
+
+#contact .title {
+  text-align: center;
+  font-size: 50px;
+  font-family: var(--comic);
+  padding-bottom: 1rem;
+  color: var(--white);
+  text-shadow: 0px 3px 2px var(--blueLight);
+}
+
+#contact .card {
+  background-color: #010f49e1;
+  border-radius: 20px;
+}

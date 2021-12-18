@@ -1,0 +1,47 @@
+#about {
+  background-image: url("../img/bg-2.jpg");
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#about .card {
+  border-radius: 20px;
+}
+
+#about .card-body img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.bg-text {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: #070d25ce;
+  box-shadow: 0px 0px 15px 0px var(--blueLight) !important;
+  -webkit-box-shadow: 0px 0px 15px 0px var(--blueLight) !important;
+  -moz-box-shadow: 0px 0px 15px 0px var(--blueLight) !important;
+}
+
+.title-about {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--comic) !important;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--blueLight) !important;
+  padding-bottom: 5rem;
+}
+
+/* divider */
+.title-about hr {
+  height: 5px;
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+.information {
+  font-size: 19px;
+}

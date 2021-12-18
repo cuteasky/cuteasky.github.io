@@ -1,0 +1,127 @@
+#portfolio {
+  background: url("../img/bg-3.jpg");
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 11rem;
+}
+
+#portfolio .title {
+  text-align: center;
+  font-size: 50px;
+  font-family: var(--comic);
+  padding-bottom: 1rem;
+}
+
+#portfolio .card {
+  border: none;
+  background: none;
+}
+
+#portfolio .card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  transition: transform 0.2s;
+  box-shadow: 0px 0px 15px 0px var(--blueDark) !important;
+  -webkit-box-shadow: 0px 0px 15px 0px var(--blueDark) !important;
+  -moz-box-shadow: 0px 0px 15px 0px var(--blueDark) !important;
+}
+
+#portfolio .card img:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 15px 0px var(--blueLight) !important;
+  -webkit-box-shadow: 0px 0px 15px 0px var(--blueLight) !important;
+  -moz-box-shadow: 0px 0px 15px 0px var(--blueLight) !important;
+}
+
+#portfolio .card-footer {
+  border: none;
+}
+
+/* The Modal (background) */
+#portfolio .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  margin-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+#portfolio .modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+#portfolio .modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+#portfolio .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#portfolio .close:hover,
+#portfolio .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  #portfolio .modal-content {
+    width: 100%;
+  }
+}

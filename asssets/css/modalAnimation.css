@@ -1,0 +1,41 @@
+.modal-content {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+}
+
+.modal-content .modal-body,
+.modal-content .modal-footer {
+  border: none;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.zoom-in {
+  transform: scale(0) !important;
+  opacity: 0;
+  -webkit-transition: 1.5s all 0s;
+  -moz-transition: 1.5s all 0s;
+  -ms-transition: 1.5s all 0s;
+  -o-transition: 1.5s all 0s;
+  transition: 1.5s all 0s;
+  display: block !important;
+}
+
+.zoom-in.show {
+  opacity: 1;
+  transform: scale(1) !important;
+  transform: none;
+}
+
+#moreAbout .title-about {
+  margin-top: -30px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--comic) !important;
+  text-align: center;
+  color: var(--blueLight) !important;
+  padding-bottom: 5rem;
+}

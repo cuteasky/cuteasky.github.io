@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="asssets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asssets/css/style.css">
+    <title>Rizki Maulana</title>
+</head>
+
+<body>
+    <div id="onlyDesktop">
+        <!-- Header and Hero -->
+        <main id="hero">
+            <header id="navbar" class="d-flex justify-content-between fixed-top">
+                <div class="header-left">
+                    Rizki Maulana
+                </div>
+                <div class="header-right d-flex">
+                    <div class="medsos-icon">
+                        <a href=""><i class="fab fa-github"></i></a>
+                        <a href=""><i class="fab fa-blogger"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="icon nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container" id="top">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="my-name">
+                            <span>RIZKI <br> MAULANA</span>
+                        </div>
+                        <div class="divider">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="job">
+                            <span>
+                                Web Developer / Web Designer
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-thumb text-end">
+                            <img src="asssets/img/coding.gif" width="100%"></img>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <div class="bouncing-arrow">
+                        <a href="#about"><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- About -->
+        <section id="about">
+            <div class="container">
+                <div class="title-about">
+                    About Me
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="information">
+                            <div class="bg-text">
+                                <p>
+                                    Hi, Saya Rizki Maulana. <br>
+                                    Saya lahir di Banjar, 20 September 2002.
+                                    Saya saat ini masih sekolah di SMK Negeri 1 Banjar, jurusan Rekayasa Perangkat
+                                    Lunak.
+                                    Saya merupakan seorang yang pekerja keras dan saya mampu bekerja baik secara
+                                    individu
+                                    maupun
+                                    tim.
+                                </p>
+                                <br>
+                                <p class="text-capitalize text-center">
+                                    "Saya akan terus mengejar apa yang saya inginkan tanpa mengenal lelah, <br> karena
+                                    saya
+                                    yakin
+                                    Hasil Tidak Akan Menghianati Usaha".
+                                </p>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button class="btn primary rounded-pill" onclick="showAbout()">
+                                    Show More
+                                </button>
+                                <button type="button" id="goMore" class="btn btn-primary d-none" data-bs-toggle="modal"
+                                    data-bs-target="#moreAbout">
+                                    Launch demo modal
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="modal fade zoom-in" id="moreAbout" tabindex="-1" aria-labelledby="aboutMore"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="title-about">
+                                            More About of Me
+                                        </div>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <div class="information">
+                                                        <p>
+                                                            Hi, Saya Rizki Maulana. <br>
+                                                            Saya lahir di Banjar, 20 September 2002.
+                                                            Saya saat ini masih sekolah di SMK Negeri 1 Banjar, jurusan
+                                                            Rekayasa
+                                                            Perangkat Lunak.
+                                                            Saya merupakan seorang yang pekerja keras dan saya mampu
+                                                            bekerja
+                                                            baik
+                                                            secara individu maupun
+                                                            tim.
+                                                        </p>
+                                                        <br>
+                                                        <p class="text-capitalize text-center">
+                                                            "Saya akan terus mengejar apa yang saya inginkan tanpa
+                                                            mengenal
+                                                            lelah,
+                                                            <br> karena saya
+                                                            yakin
+                                                            Hasil Tidak Akan Menghianati Usaha".
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-5">
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="card" style="width: 22rem;">
+                                                            <div class="card-body">
+                                                                <img src="asssets/img/coding.gif" class="img-fluid"
+                                                                    alt="profile">
+                                                            </div>
+                                                            <div class="card-footer text-center">
+                                                                <strong class="text-dark">RIZKI MAULANA</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn primary rounded-pill me-3"
+                                            data-bs-dismiss="modal">
+                                            <i class="fa fa-arrow-alt-circle-left fs-3"> Go Back</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="d-flex justify-content-end">
+                            <div class="card" style="width: 22rem;">
+                                <div class="card-body">
+                                    <img src="asssets/img/coding.gif" class="img-fluid" alt="profile">
+                                </div>
+                                <div class="card-footer text-center">
+                                    <strong class="text-dark">RIZKI MAULANA</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="title">
+                    Portfolio
+                </div>
+
+                <div class="my-portfolio">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img id="satu" class="img" src="asssets/img/bg-2.jpg"
+                                        onclick="detailImg(this.src, this.id)">
+                                    <div id="captionSatu" class="d-none">
+                                        Ini adalah Project pertama saya.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img id="dua" class="img" src="asssets/img/bg.jpg"
+                                        onclick="detailImg(this.src, this.id)">
+                                    <div id="captionDua" class="d-none">
+                                        Ini adalah Project kedua saya.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img id="tiga" class="img" src="asssets/img/bg-3.jpg"
+                                        onclick="detailImg(this.src, this.id)">
+                                    <div id="captionTiga" class="d-none">
+                                        Ini adalah Project ketiga saya.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div id="modalImg" class="modal">
+                        <img class="modal-content" id="imagenya">
+                        <div id="caption"></div>
+                        <span class="close">&times;</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="title">
+                    Contact Me
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-center">
+                                    <h3>Information of Me</h3>
+                                </div>
+                                <h5><i class="fa fa-user"></i>
+                                    <strong>Name :</strong> Rizki Maulana <br>
+                                </h5>
+                                <h5><i class="fa fa-home"></i>
+                                    <strong>Address :</strong> Jl. Parung, Kota Banjar, Jawa Barat
+                                    46312 <br>
+                                </h5>
+                                <h5><i class="fa fa-envelope"></i>
+                                    <strong>Email :</strong> rizki.maulana@skyzedev.tech <br>
+                                </h5>
+                                <h5><i class="fa fa-phone"></i>
+                                    <strong>Phone :</strong> 62895361164306
+                                </h5>
+                            </div>
+                            <div class="col-md-6">
+                                <form action="#" method="POST">
+                                    <div class="text-center">
+                                        <h3>Send a letter to Me</h3>
+                                    </div>
+                                    <label for="Nama">Name</label>
+                                    <input type="text" name="nama" id="nama" class="form-control">
+                                    <label for="Nama" class="mt-2">Subject</label>
+                                    <input type="text" name="nama" id="nama" class="form-control">
+                                    <label for="Nama" class="mt-2">Value of Letter</label>
+                                    <textarea name="surat" id="surat" cols="30" rows="3"
+                                        class="form-control"></textarea>
+                                    <div class="text-end mt-3">
+                                        <button type="submit" class="btn primary rounded-pill">Send a Letter</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="text-center">
+                <div class="title">
+                    Created by RIZKI MAULANA
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <h1 class="mobile text-dark">Belum bikin versi mobilenya, silahkan buka di PC!</h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="asssets/js/bootstrap.bundle.min.js"></script>
+    <script src="asssets/js/main.js"></script>
+</body>
+
+</html>
